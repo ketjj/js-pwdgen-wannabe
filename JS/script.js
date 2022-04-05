@@ -24,3 +24,14 @@ document.getElementById('infoRM').innerHTML =
 "LAST NAME: " + lastName + "<br />" +
 "FAVORITE COLOR: " + favoriteColor;
 
+
+
+const everY = 
+`
+Il mio nome è: ${firstName} ${lastName}<br>
+Il mio colore preferito è: ${favoriteColor}
+`;
+
+document.getElementById('infoRMtest').innerHTML = everY;
+
+console.log(everY);
